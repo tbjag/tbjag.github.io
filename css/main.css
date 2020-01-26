@@ -1,35 +1,52 @@
 :root {
     --lightblue: #10c4d1;
-    --hover: #1269bb;
-    --color: #fff;
+    --hover: hsl(209, 82%, 40%);
+    --color: #bab2b5;
   }
   
   body {
-    background: linear-gradient(to right, #f93d66, #6d47d9);
+    background: #25274d;
     font-weight: 700;
-    color: var(--color);
     font-size: 22px;
+    color: #fff;
   }
   
   .container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 20px;
     grid-gap: 20px;
   }
   
-  .item {
-    background-color: var(--lightblue);
+  .links {
+    background-color: #29648a;
     text-align: center;
     padding: 5px;
     border-radius: 2px;
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .links:hover{
+    background-color: #464866;
   }
   
-  
-  
+#profilePic{
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 15px;
+}
+
   @media (max-width: 768px) {
     .container {
       grid-template-columns: 1fr;
       padding: 0 40px;
     }
   }
+
+#name{
+  text-align: center;
+}
