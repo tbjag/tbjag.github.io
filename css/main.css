@@ -1,52 +1,109 @@
-:root {
-    --lightblue: #10c4d1;
-    --hover: hsl(209, 82%, 40%);
-    --color: #bab2b5;
-  }
-  
-  body {
-    background: #25274d;
-    font-weight: 700;
-    font-size: 22px;
-    color: #fff;
-  }
-  
-  .container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    margin-top: 20px;
-    grid-gap: 20px;
-  }
-  
-  .links {
-    background-color: #29648a;
-    text-align: center;
-    padding: 5px;
-    border-radius: 2px;
-    text-decoration: none;
-    color: aliceblue;
-  }
+/* main.css */
 
-  .links:hover{
-    background-color: #464866;
-  }
-  
-#profilePic{
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Container styling
+.container {
+  width: 100%;
+  padding: 20px;
+  background-color: #333;
+  text-align: left;
+} */
+
+/* Styling for the links to make them look like buttons */
+.container .links {
+  background-color: #444;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+.container .links:hover {
+  background-color: #555;
+}
+
+/* Name section styling */
+#name h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Flex container for profile and paragraph */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px auto;
+  max-width: 800px; /* Adjust based on your preference */
+}
+
+/* Profile image styling */
+#profileImage {
+  flex: 1;
+  padding: 20px;
+  text-align: right; /* Aligns the image to the right */
+}
+
+/* Profile picture styling */
+#profilePic {
   width: 300px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
   border-radius: 15px;
 }
 
-  @media (max-width: 768px) {
-    .container {
-      grid-template-columns: 1fr;
-      padding: 0 40px;
-    }
-  }
+/* Paragraph section styling */
+#paragraph {
+  flex: 2;
+  padding: 20px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
 
-#name{
-  text-align: center;
+/* Individual paragraph styling */
+#paragraph p {
+  margin-bottom: 15px;
+}
+
+/* Flexbox for the container */
+.container {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container for navigation links */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+/* Social links styling */
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.social-links img {
+  width: 35px; /* Adjust size as needed */
+  height: 35px;
 }
