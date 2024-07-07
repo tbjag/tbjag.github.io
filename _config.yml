@@ -6,38 +6,38 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Theodore Jagodits
+title: Grad Student
+email: tjagodit (at uci dot edu)
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  tbjag
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: teddyjagodits
+linkedin_username: theodore-jagodits-140772144
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,15 +50,12 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Hi, my name is Theo, and I am originally from Montgomery County, Maryland. Currently, I am getting my M.S. of Computer Science at [UC Irvine](https://uci.edu/).
+  Some of my interests include software engineering, machine learning, distributed systems and architectures.
+  As a person, I try to challenge myself every day. I like challenging myself in my work and outside of work looking for new experiences.
 
 content:
   - title: Projects # Title for the section
@@ -67,49 +64,113 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        title: PFAS Lab
+        link: https://olivareslab.org/research-team/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+        #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Working for Professor [Chris Olivares](https://scholar.google.com/citations?user=WGLrJoUAAAAJ&hl=en&oi=ao) under [Jialin Dong](https://scholar.google.com/citations?user=3l6ALskAAAAJ&hl=en&oi=ao) 
+          in his PFAS lab using machine learning to detect patterns in map and well data. 
+          Worked on aggregating geospatial data and converting it to ML readable data. Proposed new framework to predict on map data.
+          Currently leading and managing 10 students on this project.
+
+      - layout: left
+        border: weak
+        title: BIAS Lab
+        link: https://biaslab.ics.uci.edu/
+        description: | 
+          Hyperdimensional computing project. TBD
+
+      - layout: left
+        border: weak
+        title: CTM Insights Database Integrity
+        link: https://biaslab.ics.uci.edu/
+        quote: >
+          Capstone Project
+        description: | 
+          Designed a system technology for a JDBC driver to protect the integrity of databases using 
+          overlapping hashes, which had been used before but not on live databases. Wrote use cases 
+          for various database queries a user is expected to make and developed C++ code for a server 
+          to store hashes for a large user base. Additionally, I developed a Spring Boot application 
+          to demo our product to the sponsor and set up pipelines to enable continuous integration.
+
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+      - layout: left
+        title: General Atomics
+        sub_title: Algorithms Graduate Intern
+        caption: June 2024 - August 2024
+        link: https://www.ga.com/
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - Internship in progress. Informatiom TBD
+      - layout: left
+        title: The MITRE Corporation
+        sub_title: Software Developer II
+        caption: June 2021 - August 2023
+        link: https://www.mitre.org/
+        description: | # this will include new lines to allow paragraphs
+          - Developed and deployed data aggregation systems on the cloud by writing unit tests and implementing coding practices to
+            increase readability and scalability
+          - Worked as a sub-reviewer for the Join Digital Library Conference under the direction of Dr. Justin Brunelle; read and
+            reviewed a research paper for technical foundations and also if it was a good fit for the JDLC
+          - Launched a zero-trust architecture system to facilitate information-sharing mission information among US allies; Built a
+            reverse-proxy to authenticate users leveraging an identity provider
+          - Designed a research proposal to prevent car collisions from IOT device data on road ecology and pedestrians
+          - Devised and implemented database filtering on micro-services archictecture
+      - layout: left
+        title: Air Force Civil Service
+        sub_title: College Intern
+        caption: May 2020 - August 2020
+        link: https://afciviliancareers.com/
+        description: | # this will include new lines to allow paragraphs
+          - Led and participated in student projects design to test project management skills
+          - Authored an exploratory paper on Apache Spark to apply large-scale data analysis and processing in the Air Force
+      - layout: left
+        title: Leidos Inc.
+        sub_title: College Intern
+        caption: June 2017 - August 2018
+        link: https://afciviliancareers.com/
+        description: | # this will include new lines to allow paragraphs
+          - Programmed a categorizer in Excel to organize software licenses based on its requirements (i.e. GNU, MIT, etc.)
+          - Created unit tests for flight control towers to digitize analog systems for health and longevity of flight controllers
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+      - title: University of California, Irvine; Donald Bren School of Information & Computer Sciences
+        sub_title: M.S. Computer Science
+        caption: 2023 - Present
+        description: | 
+          Currently attending UCI for computer science to get more technical knowledge in fields that interest me. 
+
+          I have founded the F1Tenth Autonomous Racing club that consists of writing machine learning models for small cars to compete against at top robotics conferences. 
+      - title: Stevens Institute of Technology; Schaefer School of Engineering & Science
+        sub_title: B.S. Computer Science
+        caption: 2017 - 2021
+        description: | 
+          During my degree at Stevens I learnt lots of key skills such as team work and project management. During my last year, 
+          a few classmates and I worked on a capstone project involving database security that ended up winning best project for the computer science department. 
+
+          During my time there I was a participating member of the Varsity swim team which won many end of year conference championships during my time there.
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      **Software:** Git, HTML, Sklearn, Linux, CSS, SQL, Full Stack Dev., MongoDB, QiSkit, Jupyter, Statistical
+      Analysis, Machine Learning, Deep Learning, Pytorch, Pandas, Seaborn, Spring Boot, JPA, MySQL, PostgreSQL, MongoDB, Docker,
+      Virtual Machines, Redis, React, Kubernetes, Node, OAuth 2.0, CI/CD, Unit Testing, Integration Testing
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      **Software Languages:** C, C++, Erlang, Java, Python, Javascript, Typescript, R, CUDA, Golang
+
+      **Languages:** English (Fluent), Dutch (Fluent), German (Fluent), Portuguese (Basic), Spanish (Basic)
 
 # Footer
 footer_show_references: true
@@ -117,7 +178,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
