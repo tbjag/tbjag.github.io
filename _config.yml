@@ -111,7 +111,10 @@ content:
         caption: June 2024 - August 2024
         link: https://www.ga.com/
         description: | # this will include new lines to allow paragraphs
-          - Internship in progress. Informatiom TBD
+          - Developed configurable data generation framework for the use case of simulating antenna arrays
+          - Created convolutional neural network models to estimate direction of arrival for signal processing of antenna arrays 
+          - Performed analysis on the model to assess the learning ability, prediction quality, and possible improvements
+
       - layout: left
         title: The MITRE Corporation
         sub_title: Software Developer II
@@ -138,7 +141,7 @@ content:
         title: Leidos Inc.
         sub_title: College Intern
         caption: June 2017 - August 2018
-        link: https://afciviliancareers.com/
+        link: https://www.leidos.com/
         description: | # this will include new lines to allow paragraphs
           - Programmed a categorizer in Excel to organize software licenses based on its requirements (i.e. GNU, MIT, etc.)
           - Created unit tests for flight control towers to digitize analog systems for health and longevity of flight controllers
