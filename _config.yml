@@ -77,10 +77,12 @@ content:
         # quote: >
         #   Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Working for Professor [Chris Olivares](https://scholar.google.com/citations?user=WGLrJoUAAAAJ&hl=en&oi=ao) under [Jialin Dong](https://scholar.google.com/citations?user=3l6ALskAAAAJ&hl=en&oi=ao) 
-          in his PFAS lab using machine learning to detect patterns in map and well data. 
-          Worked on aggregating geospatial data and converting it to ML readable data. Proposed new framework to predict on map data.
-          Currently leading and managing 10 students on this project.
+          - Using deep learning techniques to predict a common class of pollutants called ‘forever’ chemicals in the environmental
+            engineering lab under the direction of Professor Olivares. The project aimed to develop predictive models that could identify
+            contamination patterns in a spatial context and predict the location of places of extreme environmental hazard. In order to
+            assess the environmental impact of these persistent pollutants, contributing to ongoing efforts in pollution mitigation.
+          - Preprocessed GIS data from various sources into machine learning datasets, selected machine learning models and worked on
+            statistical analysis of data to select appropriate features.
 
       - layout: left
         border: weak
@@ -96,11 +98,10 @@ content:
         quote: >
           Capstone Project
         description: | 
-          Designed a system technology for a JDBC driver to protect the integrity of databases using 
-          overlapping hashes, which had been used before but not on live databases. Wrote use cases 
-          for various database queries a user is expected to make and developed C++ code for a server 
-          to store hashes for a large user base. Additionally, I developed a Spring Boot application 
-          to demo our product to the sponsor and set up pipelines to enable continuous integration.
+          - Designed a system for a JDBC driver to protect the integrity of databases using overlapping hashes for live data.
+          - Held standup meetings with our team; Facilitated discussions with our sponsor and advisor. Filled out biweekly reports for
+            the class itself and set milestones for our team. Wrote use cases for various database queries a user is expected to make.
+          - Developed a C++ and Spring Boot micro services to demo our product to the sponsor of a live version of the system.
 
   - title: Experience
     layout: list
@@ -169,9 +170,9 @@ content:
     content: | # this will include new lines to allow paragraphs
       **Software:** Git, HTML, Sklearn, Linux, CSS, SQL, Full Stack Dev., MongoDB, QiSkit, Jupyter, Statistical
       Analysis, Machine Learning, Deep Learning, Pytorch, Pandas, Seaborn, Spring Boot, JPA, MySQL, PostgreSQL, MongoDB, Docker,
-      Virtual Machines, Redis, React, Kubernetes, Node, OAuth 2.0, CI/CD, Unit Testing, Integration Testing
+      Virtual Machines, Redis, React, Kubernetes, Node, OAuth2, CI/CD, Unit Testing, Integration Testing
 
-      **Software Languages:** C, C++, Erlang, Java, Python, Javascript, Typescript, R, CUDA, Golang
+      **Software Languages:** C, C++, Erlang, Java, Python, Javascript, Typescript, R, CUDA, Golang, learning Rust
 
       **Languages:** English (Fluent), Dutch (Fluent), German (Fluent), Portuguese (Basic), Spanish (Basic)
 
