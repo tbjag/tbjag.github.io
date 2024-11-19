@@ -112,9 +112,8 @@ content:
         caption: June 2024 - August 2024
         link: https://www.ga.com/
         description: | # this will include new lines to allow paragraphs
-          - Developed configurable data generation framework for the use case of simulating antenna arrays
-          - Created convolutional neural network models to estimate direction of arrival for signal processing of antenna arrays 
-          - Performed analysis on the model to assess the learning ability, prediction quality, and possible improvements
+          - Developed data generation framework for the use case of simulating signals on different antenna array configurations.
+          - Created convolutional neural network models with PyTorch on simulated data, to estimate the direction of arrival of signals coming into an antenna array. Showing a two percent accuracy increase opposed to traditional methods. 
 
       - layout: left
         title: The MITRE Corporation
@@ -122,22 +121,21 @@ content:
         caption: June 2021 - August 2023
         link: https://www.mitre.org/
         description: | # this will include new lines to allow paragraphs
-          - Developed and deployed data aggregation systems on the cloud by writing unit tests and implementing coding practices to
-            increase readability and scalability
+          - Created data aggregation systems within a microservices architecture using Spring Boot ingesting from Kafka events. Ensured reliability by doing test-driven development. Deployed services to AWS using Gitlab CI/CD ensuring scalability.
           - Worked as a sub-reviewer for the Join Digital Library Conference under the direction of Dr. Justin Brunelle; read and
             reviewed a research paper for technical foundations and also if it was a good fit for the JDLC
-          - Launched a zero-trust architecture system to facilitate information-sharing mission information among US allies; Built a
-            reverse-proxy to authenticate users leveraging an identity provider
-          - Designed a research proposal to prevent car collisions from IOT device data on road ecology and pedestrians
-          - Devised and implemented database filtering on micro-services archictecture
+          - Designed database filtering solution for the Kessel Run project using PostgresQL and MySQL on Spring Boot applications. This solution allows access to US allies onto sensitive applications by only exposing information relevant to the user. 
+          - Mentored seven interns and acted as subject matter expert for their summer project for microservice architecture and security.
+
       - layout: left
         title: Air Force Civil Service
         sub_title: College Intern
         caption: May 2020 - August 2020
         link: https://afciviliancareers.com/
         description: | # this will include new lines to allow paragraphs
-          - Led and participated in student projects design to test project management skills
-          - Authored an exploratory paper on Apache Spark to apply large-scale data analysis and processing in the Air Force
+          - Led and actively participated in several collaborative student projects, specifically designed to test and enhance project management skills, including planning, task delegation, time management, and effective communication.
+          - Co-authored an exploratory paper on Apache Spark to apply large-scale data analysis and processing in the Air Force.
+
       - layout: left
         title: Leidos Inc.
         sub_title: College Intern
@@ -168,13 +166,19 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Software:** Git, HTML, Sklearn, Linux, CSS, SQL, Full Stack Dev., MongoDB, QiSkit, Jupyter, Statistical
-      Analysis, Machine Learning, Deep Learning, Pytorch, Pandas, Seaborn, Spring Boot, JPA, MySQL, PostgreSQL, MongoDB, Docker,
-      Virtual Machines, Redis, React, Kubernetes, Node, OAuth2, CI/CD, Unit Testing, Integration Testing
+      **Full Stack Development:** React, Node.js, OAuth2, Spring Boot, GraphQL, PostgresQL, MongoDB, Redis, Linux, Scripting
 
-      **Software Languages:** C, C++, Erlang, Java, Python, Javascript, Typescript, R, CUDA, Golang, learning Rust
+      **Cloud Experience:** AWS, Docker, Kubernetes, Reverse-Proxies, System Design, ETL, Git, REST, Apache Spark, Kafka
+
+      **Development Practices:** CI/CD, Unit Testing, Integration Testing, Test-Driven Development, Performance Optimization
+
+      **Machine Learning & Data Science:** Pandas, Seaborn, Jupyter, Sklearn, Pytorch, Deep Learning, Statistical Analysis
+
+      **Software Languages:** Java, Python, Javascript, Typescript, Go, C, C++, Erlang, SQL, HTML, CSS, learning Rust
 
       **Languages:** English (Fluent), Dutch (Fluent), German (Fluent), Portuguese (Basic), Spanish (Basic)
+
+      **Errata:** Founder and President of F1Tenth Autonomous Racing @UCI; Avid Swimmer, Runner, Triathlete, Surfer, Skier, Climber; 
 
 # Footer
 footer_show_references: true
